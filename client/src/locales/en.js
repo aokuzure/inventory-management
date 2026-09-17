@@ -6,6 +6,7 @@ export default {
     orders: 'Orders',
     finance: 'Finance',
     demandForecast: 'Demand Forecast',
+    restocking: 'Restocking',
     companyName: 'Catalyst Components',
     subtitle: 'Inventory Management System'
   },
@@ -112,6 +113,8 @@ export default {
     onTimeDelivery: 'On-Time Delivery',
     itemsCount: '{count} items',
     quantity: 'Qty',
+    submittedOrders: 'Submitted Orders',
+    noSubmittedOrders: 'No restocking orders submitted yet',
     table: {
       orderNumber: 'Order Number',
       orderId: 'Order ID',
@@ -125,7 +128,9 @@ export default {
       totalValue: 'Total Value',
       status: 'Status',
       expectedDelivery: 'Expected Delivery',
-      actualDelivery: 'Actual Delivery'
+      actualDelivery: 'Actual Delivery',
+      leadTime: 'Lead Time',
+      createdDate: 'Created Date'
     }
   },
 
@@ -185,6 +190,32 @@ export default {
       change: 'Change',
       trend: 'Trend',
       period: 'Period'
+    }
+  },
+
+  // Restocking
+  restocking: {
+    title: 'Restocking',
+    description: 'Set a budget and get item recommendations from demand forecasts',
+    budgetLabel: 'Available Budget',
+    itemsRecommended: 'Items Recommended',
+    totalCost: 'Total Cost',
+    remainingBudget: 'Remaining Budget',
+    longestLeadTime: 'Longest Lead Time',
+    recommendedItems: 'Recommended Items',
+    placeOrder: 'Place Order',
+    placingOrder: 'Placing Order...',
+    noRecommendations: 'No items are affordable at this budget. Try increasing the slider.',
+    orderPlacedSuccess: 'Order {orderNumber} placed successfully — view it in the Orders tab.',
+    days: 'days',
+    table: {
+      sku: 'SKU',
+      itemName: 'Item Name',
+      demandGrowth: 'Demand Growth',
+      unitCost: 'Unit Cost',
+      quantity: 'Quantity',
+      lineTotal: 'Line Total',
+      leadTime: 'Lead Time'
     }
   },
 
