@@ -6,6 +6,7 @@ export default {
     orders: '注文',
     finance: '財務',
     demandForecast: '需要予測',
+    restocking: '再入荷',
     companyName: '触媒コンポーネンツ',
     subtitle: '在庫管理システム'
   },
@@ -112,6 +113,8 @@ export default {
     onTimeDelivery: '定時配達',
     itemsCount: '{count}件',
     quantity: '数量',
+    submittedOrders: '提出済み再入荷注文',
+    noSubmittedOrders: 'まだ再入荷注文は提出されていません',
     table: {
       orderNumber: '注文番号',
       orderId: '注文ID',
@@ -125,7 +128,9 @@ export default {
       totalValue: '合計金額',
       status: 'ステータス',
       expectedDelivery: '予定配達日',
-      actualDelivery: '実際の配達日'
+      actualDelivery: '実際の配達日',
+      leadTime: 'リードタイム',
+      createdDate: '作成日'
     }
   },
 
@@ -185,6 +190,32 @@ export default {
       change: '変化',
       trend: 'トレンド',
       period: '期間'
+    }
+  },
+
+  // Restocking
+  restocking: {
+    title: '再入荷',
+    description: '予算を設定し、需要予測に基づいた品目の提案を確認',
+    budgetLabel: '利用可能な予算',
+    itemsRecommended: '提案品目数',
+    totalCost: '合計コスト',
+    remainingBudget: '残り予算',
+    longestLeadTime: '最長リードタイム',
+    recommendedItems: '提案品目',
+    placeOrder: '注文を確定',
+    placingOrder: '注文中...',
+    noRecommendations: 'この予算で購入できる品目がありません。予算を増やしてください。',
+    orderPlacedSuccess: '注文{orderNumber}が正常に確定されました — 注文タブでご確認ください。',
+    days: '日',
+    table: {
+      sku: 'SKU',
+      itemName: '品目名',
+      demandGrowth: '需要増加',
+      unitCost: '単価',
+      quantity: '数量',
+      lineTotal: '小計',
+      leadTime: 'リードタイム'
     }
   },
 
